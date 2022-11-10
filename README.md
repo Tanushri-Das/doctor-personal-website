@@ -1,6 +1,8 @@
 # Project Name:  Tanu Eye Care
+Client Side GitHub Link:https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-Tanushri-Das
+Server Side GitHub Link : https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-Tanushri-Das
 
- Client side Live Site Link:https://doctor-personal-website.web.app/
+ Live Site Link:https://doctor-personal-website.web.app/
 
  Project Features and functionalities:
   * I used React JS and also use react tailwind & daisy UI for desigining sector.
