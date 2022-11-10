@@ -19,7 +19,7 @@ const AllReviews = ({ serviceID }) => {
       {allReviews.length > 0 ? (
         <p className="text-4xl my-12 text-amber-500 font-bold">Total {allReviews.length} Reviews</p>
       ) : (
-        <p>No Reviews yet here</p>
+        <p className="text-4xl my-12 text-amber-500 font-bold">No Reviews yet here</p>
       )}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {allReviews.map((reviews) => (
