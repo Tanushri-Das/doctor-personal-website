@@ -1,0 +1,55 @@
+[
+    {
+        "service_id": "04",
+        "title": "Lasik Eye Surgery",
+        "img": "https://www.royalspanishcenter.com/wp-content/uploads/2022/03/1-1.jpg",
+        "price": "60000",
+        "description": "LASIK or Lasik (laser-assisted in situ keratomileusis), commonly referred to as laser eye surgery or laser vision correction, is a type of refractive surgery for the correction of myopia, hyperopia, and an actual cure for astigmatism, since it is in the cornea.LASIK surgery is performed by an ophthalmologist who uses a laser or microkeratome to reshape the eye's cornea in order to improve visual acuity.[2] For most people, LASIK provides a long-lasting alternative to eyeglasses or contact lenses.LASIK is permanent. LASIK permanently corrects the vision prescription that you have at the time of surgery. This means that it cannot wear off. However, any underlying conditions such as presbyopia that progress over time can cause changes to your vision, making the original LASIK procedure less effective.LASIK permanently changes the eye, offering permanent improvements in eyesight compared to your vision before the procedure. That means you only have to see your eye doctor for your regular annual eye exams, instead of the additional appointments that are sometimes needed to keep your prescription updated.",
+        "After_Surgery_Precaution":"Don't take a shower or wash your hair until the day after,Avoid getting non-sterile water from shower, hair washing, etc. into your eyes during the first few days after surgery,Don’t rub your eyes for at least a month,Use all eye drops, including artificial tears, that are prescribed by your doctor,Don't drive until you feel comfortable. Get your doctor’s OK first,Wear the eye shield/goggles the doctor gave you while you sleep for the first week,Don't get your hair colored or permed for at least 10 days,Your eyes will likely be sensitive to light for a while. Dark sunglasses are helpful."
+        
+    },
+    {
+        "service_id": "05",
+        "title": "Eyelid surgery",
+        "img": "https://appearancecenter.com/wp-content/uploads/2018/02/Eyelid-Rejuvenation-Steven-Daines-MD-Appearance-Center-Newport-Beach-Orange-County-Plastic-Surgery.3.jpg",
+        "price": "20000",
+        "description": "Eyelid surgery (blepharoplasty) is a type of surgery that removes excess skin from the eyelids. With age, eyelids stretch, and the muscles supporting them weaken. As a result, excess skin and fat can gather above and below your eyelids. This can cause sagging eyebrows, droopy upper lids and bags under the eyes.Besides aging, severely sagging skin around the eyes can reduce side vision (peripheral vision), especially the upper and outer parts of the visual field. Blepharoplasty can reduce or get rid of these vision problems. The surgery can also make eyes look younger and more alert.Blepharoplasty can help make that possible. Also known as eyelid surgery, this procedure eliminates puffiness, smooths wrinkles, targets bags and dark circles, and tightens loose skin.",
+        "After_Surgery_Precaution":"Keep the wound and dressing as dry as possible for at least 48 hours. However, it may be necessary for you to bathe the eyes, particularly in the morning,Try to sit upright as much as possible to help reduce the swelling. At night use an extra pillow to ensure that your head is above the level of the heart and avoid any straining,You should abstain from alcohol during the first week following surgery,Reduce caffeine and carbonated drink intake in the first few days,You will need to have someone stay with you for the first 24 to 48 hours."
+        
+    },
+    {
+        "service_id": "01",
+        "title": "PRK(Photorefractive Keratectomy)",
+        "img": "https://www.willseye.org/wp-content/uploads/2020/07/prk.jpg",
+        "price": "20000",
+        "description": "Photorefractive Keratectomy, or PRK, is designed to correct nearsightedness (myopia), farsightedness (hyperopia), and astigmatism by using an excimer laser to reshape the cornea without creating a flap in the cornea.Poor vision can be helped by a PRK (photorefractive keratectomy), which is a type of outpatient, refractive laser eye surgery that helps with nearsightedness, farsightedness and astigmatism. About 80% of patients see improved vision one month after surgery and 95% after three months.",
+        "After_Surgery_Precaution":"Do not rub or put pressure on your eye for at least 1 week,For 1 week, do not wear eye makeup. You may also want to avoid face cream or lotion,Avoid exercise for 2 or 3 days after surgery, if you might get sweat in your eye,Wear sunglasses on bright days for at least 1 year after surgery and avoid too much sun exposure,Avoid exercise for 2 or 3 days after surgery, if you might get sweat in your eye,For 1 to 2 weeks, avoid swimming, hot tubs, gardening, and dusting,Avoid strenuous activities or contact sports, such as boxing or football, for 2 to 4 weeks after surgery. If you return to playing contact sports, consider wearing goggles or other eye protection."
+        
+    },
+    {
+        "service_id": "02",
+        "title": "Phaco surgery",
+        "img": "https://images.ctfassets.net/u4vv676b8z52/64C2MYDOQBuils2BmqVLBQ/da606c4d332ba11c37175a0091d56ad7/phacoemulsification-cataract-surgery-678x446.gif?fm=jpg&q=80",
+        "price": "18000",
+        "description": "Phacoemulsification is a common cataract surgery that uses ultrasound to break the lens of the eye into small fragments, which are then suctioned out of the eye. The lens is replaced with an intraocular lens implant.Benefit of Phaco surgery is No hospitalization - Walk in, Walk out surgery. Smaller incision- hence lesser complications related to the incision size. Lesser induced astigmatism because of smaller incision.",
+        "After_Surgery_Precaution":"Do not allow soap or shampoo to get into your eye,do not rub your eyes,do not drive until you get the all-clear from your doctor,avoid swimming for 4 to 6 weeks,do not wear eye make-up for at least 4 weeks,do not do any strenuous exercise or housework,do not fly without seeking advice from your doctor."
+        
+    },
+    {
+       "service_id": "03",
+        "title": "Corneal Transplant",
+        "img": "https://seemaeye.com/wp-content/uploads/2020/10/corneal-transplant-surgery-101.jpg",
+        "price": "30000",
+        "description": "A cornea transplant is an operation to remove all or part of a damaged cornea and replace it with healthy donor tissue.A cornea transplant is often referred to as keratoplasty or a corneal graft.It can be used to improve sight, relieve pain and treat severe infection or damage.One of the most common reasons for a cornea transplant is a condition called keratoconus, which causes the cornea to change shape.A cornea transplant is often referred to as keratoplasty or a corneal graft. It can be used to improve sight, relieve pain and treat severe infection or damage. One of the most common reasons for a cornea transplant is a condition called keratoconus, which causes the cornea to change shape.",
+        "After_Surgery_Precaution":"Avoid contact sports and swimming until you're given clear advice that it's safe, and wear protective goggles when resuming contact sports,avoid smoky or dusty places as this could irritate your eye,if your job involves manual labour, you should wait for 3 to 4 months,during the first weeks after surgery, avoid strenuous exercise and heavy lifting,do not rub your eyes."
+    },
+    {
+        "service_id": "06",
+        "title": "Strabismus surgery",
+        "img": "https://external-preview.redd.it/ujzRoD6uIGu9r_-PxSqNI_cQ4FeJdx9eauW32N-TBI0.jpg?auto=webp&s=073c0a061dd346b0bd426e9993f699c085199bb9",
+        "price": "40000",
+        "description": "Strabismus treatments, the main goal of squint surgery is to correct the misalignment of the eyes. Surgical treatment often improves peripheral vision and cosmetic appearance and may sometimes increase depth perception.The most common functional benefits from strabismus surgery in the adult patient are restoration of binocular vision and elimination of diplopia and/or a compensatory head posture. Adult patients with chronic strabismus have been thought to have the potential to achieve only a cosmetic result from surgery.",
+        "After_Surgery_Precaution":"Avoid wearing contact lenses for one to two weeks,Avoid swimming for at least a week,Keep irritants, such as shampoo, out of eyes for two to three days,Avoid strenuous activity, such as lifting or contact sports for 14 days following surgery, Sleep with your head elevated on 2 to 3 pillows for 5 to 7 days to reduce pain and swelling."
+       
+    }
+]

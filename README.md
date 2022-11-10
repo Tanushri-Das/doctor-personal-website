@@ -1,4 +1,41 @@
-# Getting Started with Create React App
+# Project Name:  Tanu Eye Care
+ Client side Github Link:
+ Server side Github Link:
+ Live Site Link:
+
+ Project Features and functionalities:
+  * I used React JS and also use react tailwind & daisy UI for desigining sector.
+  * Use a Navbar and a Slider for Header Section.
+  * After that i create a server for store data in MongoDB.
+  * Then I fetch all the services data.
+  * I also use  react-photo-view  for photo viewing.
+  * I use firebase authentication for email,password and googleLogin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +104,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
