@@ -21,7 +21,7 @@ const UpdateReview = () => {
             name,photoURL,message
         }
         
-        fetch(`http://localhost:5000/reviews/${params.id}`,{
+        fetch(`https://doctor-personal-server-side.vercel.app/reviews/${params.id}`,{
             method:'PATCH',
             headers:{
                 'content-type':'application/json'

@@ -9,7 +9,7 @@ const AllReviews = ({ serviceID }) => {
   const [allReviews, setAllReviews] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/reviews/${serviceID}`)
+    fetch(`https://doctor-personal-server-side.vercel.app/reviews/${serviceID}`)
       .then((res) => res.json())
       .then((data) => setAllReviews(data));
   }, [allReviews]);

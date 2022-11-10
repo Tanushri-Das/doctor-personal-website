@@ -14,7 +14,7 @@ const MyReviews = () => {
     UseTitle('MyReviews')
 
     useEffect(() => {
-        fetch(`http://localhost:5000/reviews?email=${user?.email}`)
+        fetch(`https://doctor-personal-server-side.vercel.app/reviews?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setMyReviews(data))
     }, [user?.email])
@@ -23,7 +23,7 @@ const MyReviews = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure, you want to cancel this order');
         if (proceed) {
-            fetch(`http://localhost:5000/reviews/${id}`, {
+            fetch(`https://doctor-personal-server-side.vercel.app/reviews/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

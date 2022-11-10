@@ -16,7 +16,7 @@ const OfferMe = () => {
             <h3 className="text-xl text-fuchsia-500 mb-2 font-semibold">
               OFFER A SIMPLE SMILE
             </h3>
-            <p className="text-justify">
+            <p className="text-justify text-lg">
               A smile shows my patients that I am happy to see them.Patients are
               the core of my practice, so express to them that I am very glad
               that they are here. Make them feel welcome and let them know that
@@ -35,7 +35,7 @@ const OfferMe = () => {
             <h3 className="text-xl text-fuchsia-500 mb-2 font-semibold">
               BE ON TIME
             </h3>
-            <p className="text-justify">
+            <p className="text-justify text-lg">
               Most patients will understand an unexpected delay, but they
               appreciate it when you work with them and keep them
               informed.I try to reach my patient on time at any cost. Show my patients I
@@ -54,7 +54,7 @@ const OfferMe = () => {
             <h3 className="text-xl text-fuchsia-500 mb-2 font-semibold">
               ADDRESS PATIENTS BY NAME
             </h3>
-            <p className="text-justify">
+            <p className="text-justify text-lg">
               I always call my patient by his name.I think that making a small effort to remember patients and call them by name
               will make them feel important and acknowledged. This little detail
               makes patients feel appreciated and helps my practice build

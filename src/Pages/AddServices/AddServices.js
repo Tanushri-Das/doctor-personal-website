@@ -28,7 +28,7 @@ const AddServices = () => {
             img,
             description,After_Surgery_Precaution
           };
-          fetch('http://localhost:5000/services',{
+          fetch('https://doctor-personal-server-side.vercel.app/services',{
                 method:'POST',
                 headers:{
                     'content-type':'application/json'
@@ -48,7 +48,7 @@ const AddServices = () => {
 
   return (
     <div>
-      <div className='grid grid-cols-1 mt-12'>
+      <div className='grid grid-cols-1 mt-12 mb-20'>
             <h2 className='text-4xl text-center mb-12'>Add your new service : </h2>
             <form onSubmit={handleAddService}>
           <div>
@@ -84,7 +84,7 @@ const AddServices = () => {
             ></textarea>
             
 
-<button type="submit" onClick={notification} className="input text-black input-bordered w-full" value="Add Service">
+<button type="submit" onClick={notification} className="input text-xl text-white bg-orange-400 input-bordered w-full" value="Add Service">
                         Submit</button>    <ToastContainer />
           </div>
         </form>
