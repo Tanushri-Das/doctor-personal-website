@@ -9,9 +9,9 @@ const AllReviewsCard = ({ reviews }) => {
         <img src={photoURL} alt="Movie" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{patient}</h2>
-        <p className="card-title">{new Date(time).toDateString()}</p>
-        <p className="card-title">{message}</p>
+        <h2 className="card-title">Patient Name : {patient}</h2>
+        <p className="card-title">Time : {new Date(time).toDateString()}</p>
+        <p className="card-title">Review : {message}</p>
       </div>
     </div>
   );
