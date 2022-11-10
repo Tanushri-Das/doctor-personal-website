@@ -5,7 +5,7 @@ import img2 from '../../../assests/banner2.jpg';
 import img3 from '../../../assests/banner3.jpg';
 import img4 from '../../../assests/banner4.jpg';
 import img5 from '../../../assests/banner5.jpg';
-import img6 from '../../../assests/banner6.webp';
+import img6 from '../../../assests/banner6.jpg';
 
 import SliderItem from './SliderItem';
 
