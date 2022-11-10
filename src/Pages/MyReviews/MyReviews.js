@@ -48,7 +48,7 @@ const MyReviews = () => {
                 <p>No Reviews yet here</p>
 
             }
-            <div className='mt-5 w-3/4 mx-16 lg:mx-44 border-solid border-2'>
+            <div className='mt-5 w-3/4 mx-12 lg:mx-44'>
                 {
                     myReviews.map(review => <OwnReview
                         key={review._id}

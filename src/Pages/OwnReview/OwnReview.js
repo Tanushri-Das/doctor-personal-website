@@ -7,12 +7,13 @@ const OwnReview = ({ review, handleDelete, handleMessageUpdate }) => {
   return (
     <div className="flex">
       <div className="card card-side w-full shadow-xl mb-5">
-          <img src={photoURL} className="" alt="Movie" />
+          <img src={photoURL} className="w-40" alt="Movie" />
 
         <div className="card-body">
           <h2 className="card-title">Service Name :{serviceName}</h2>
+          <p className="card-title text-justify">Review:{message}</p>
           <h2 className="card-title">Patient Name :{patient}</h2>
-          <p className="card-text text-justify">Review:{message}</p>
+          
         </div>
         <button onClick={() => handleDelete(_id)} className="btn btn-primary my-4">
             X
