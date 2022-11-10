@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
 import AllReviewsCard from './AllReviewsCard';
 
-const AllReviews = () => {
+const AllReviews = ({serviceID}) => {
 
   // const { _id, img, price, title ,description} = myservices;
 
@@ -10,10 +10,8 @@ const AllReviews = () => {
     const [allReviews,setAllReviews] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/reviews')
-        // fetch(`http://localhost:5000/reviews/${service}`,{
-        //   me
-        // })
+       
+        fetch(`http://localhost:5000/reviews/${serviceID}`)
         .then(res => res.json())
         .then(data => setAllReviews(data))
     },[allReviews])

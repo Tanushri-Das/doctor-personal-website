@@ -7,12 +7,15 @@ import AllServiceCard from './AllServicesCard';
 const AllServices = () => {
 
     const [allServices,setAllServices] = useState([]);
-    const {loading} = useContext(AuthContext);
+    const [loading,setLoading] = useState(true)
 
     useEffect(()=>{
         fetch('http://localhost:5000/services')
         .then(res => res.json())
-        .then(data => setAllServices(data))
+        .then(data => {
+            setAllServices(data);
+            setLoading(false);
+        })
     },[])
     if(loading){
     

@@ -38,13 +38,16 @@ const MyReviews = () => {
         }
     }
 
-    // if(myReviews.length < 0){
-    //     return <h1>You have no reviews</h1>
-    // }
+    
     return (
         <div className='my-20'>
-            <h1 className='text-3xl text-indigo-500'>You have total {myReviews.length} Reviews.</h1>
             
+            {
+                myReviews.length > 0 ? <p>You have total {myReviews.length} Reviews</p>
+                :
+                <p>No Reviews yet here</p>
+
+            }
             <div className='mt-5 w-3/4 mx-16 lg:mx-44 border-solid border-2'>
                 {
                     myReviews.map(review => <OwnReview

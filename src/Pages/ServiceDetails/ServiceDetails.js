@@ -4,7 +4,8 @@ import { Link, useLoaderData, useLocation, useNavigate } from "react-router-dom"
 import { AuthContext } from "../../Contexts/AuthProvider/AuthProvider";
 import AllReviews from "../AllReviews/AllReviews";
 
-const ServiceDetails = ({myservices}) => {
+const ServiceDetails = () => {
+
   const { _id, title, img, description, price, After_Surgery_Precaution } =
   useLoaderData();
   const { user,loading } = useContext(AuthContext);
@@ -28,6 +29,7 @@ const ServiceDetails = ({myservices}) => {
       patient: name,email,
       photoURL,
       message,
+      time:new Date()
     };
     fetch("http://localhost:5000/reviews", {
       method: "POST",
@@ -115,8 +117,8 @@ const ServiceDetails = ({myservices}) => {
                 value="Give Review"
               />
             ) : (
-              <Link to='/login'>
-                <p>Please login to add a review</p>
+              <Link to='/login' state={{ from: location }} replace>
+                <p className="text-xl">Please login to add a review</p>
               </Link>
             )}
           </div>
@@ -124,7 +126,7 @@ const ServiceDetails = ({myservices}) => {
       </div>
      
     </div>
-    <AllReviews myservices={myservices}></AllReviews>
+    <AllReviews serviceID={_id}></AllReviews>
     </div>
     
   );
