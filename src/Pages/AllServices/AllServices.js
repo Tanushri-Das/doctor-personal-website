@@ -23,7 +23,7 @@ const AllServices = () => {
     }
   return (
     <div className='mb-20'>
-        <h2 className='text-violet-500 text-4xl font-bold mt-20 mb-10'>My All Services:{allServices.length}</h2>
+        <h2 className='text-violet-500 text-4xl font-bold mt-20 mb-10'>My All Services</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ml-20 gap-6'>
             {
                 allServices.map(myservices => <AllServiceCard key={myservices._id} myservices={myservices}></AllServiceCard>)

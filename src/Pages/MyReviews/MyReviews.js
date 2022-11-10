@@ -43,7 +43,7 @@ const MyReviews = () => {
         <div className='my-20'>
             
             {
-                myReviews.length > 0 ? <p>You have total {myReviews.length} Reviews</p>
+                myReviews.length > 0 ? <p className='text-2xl text-indigo-500 font-semibold'>You have total {myReviews.length} Reviews</p>
                 :
                 <p>No Reviews yet here</p>
 
