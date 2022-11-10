@@ -118,7 +118,7 @@ const ServiceDetails = () => {
               />
             ) : (
               <Link to='/login' state={{ from: location }} replace>
-                <p className="text-xl">Please login to add a review</p>
+                <p className="text-2xl text-purple-600 font-bold">Please login to add a review</p>
               </Link>
             )}
           </div>

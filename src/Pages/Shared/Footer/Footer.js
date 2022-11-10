@@ -6,10 +6,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="footer items-center p-10 bg-neutral text-neutral-content">
+    <footer className="footer items-center p-10 bg-slate-300 text-white">
   <div className="items-center grid-flow-col">
      <img src={logo} className="w-32 rounded" alt="" /> 
-    <p>Copyright © 2022 - All right reserved</p>
+    <p className="text-xl lg:text-2xl font-semibold">Copyright © 2022 - All right reserved</p>
   </div> 
   <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
   <a href="https://www.linkedin.com/in/tanushri-das-06a520194/" target='_blank'>
