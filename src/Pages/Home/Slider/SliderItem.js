@@ -18,12 +18,8 @@ const SliderItem = ({ slide }) => {
         </div>
         <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-32 lg:left-28">
           <p className="text-white mt-24 lg:text-xl text-justify">
-            Neurological disorders are disorders that affect the brain, spinal
-            cord, and nerves.Neurological disabilities include a wide range of
-            disorders, such as epilepsy, learning disabilities, neuromuscular
-            disorders, autism, ADD, brain tumors, and cerebral palsy, just to
-            name a few.I will try to give best treatment to the patient for
-            recovering their all neurological disorders.
+            Tanu Eye Care is establishing the next level of eye care.Tanu Eye Care provides the latest solutions for comprehensive screening, diagnostics and monitoring of glaucoma, diabetic retinopathy, and macular degeneration (AMD).I will try to give best treatment to the patient for
+            recovering their all Eye Problems.
           </p>
         </div>
       </div>

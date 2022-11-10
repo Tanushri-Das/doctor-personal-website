@@ -12,7 +12,8 @@ const AboutMine = () => {
           class="shadow rounded-full max-w-md h-96 align-middle border-none"
         />
         <div className="w-1/2">
-          <h1 className="text-5xl font-bold">Dr. Tanushri Das</h1>
+          <h1 className="text-5xl font-bold mb-4">Dr. Tanushri Das</h1>
+          <p className="text-2xl">DOLV(USA),MLOP(Eye),FP,FFA,OCT(CLF),Refrraction & Low Vision (MBICO) State Medical Faculty of Bangladesh</p>
           <p className="py-6">
             I am a Eye Consultant.This is my personal website for people eye care.
           </p>

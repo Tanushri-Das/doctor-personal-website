@@ -4,13 +4,15 @@ const OfferMe = () => {
   return (
     <div className="my-24">
       <h1 className="text-3xl font-bold text-amber-500">What you'll get</h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 ml-4">
-        <div className="flex my-10 mr-5">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:ml-3 mt-20">
+        <div className="card card-compact w-96 bg-base-100 shadow-xl p-6 ml-12">
+          <div>
           <img
-            className="rounded-lg w-1/2 h-auto mr-3"
+            className="rounded-lg w-full h-auto"
             src="https://cdn.images.express.co.uk/img/dynamic/11/590x/Doctor-patient-624211.jpg"
           />
-          <div className="mt-2">
+          </div>
+          <div className="card-body">
             <h3 className="text-xl text-fuchsia-500 mb-2 font-semibold">
               OFFER A SIMPLE SMILE
             </h3>
@@ -22,12 +24,14 @@ const OfferMe = () => {
             </p>
           </div>
         </div>
-        <div className="flex my-10 mr-5">
+        <div className="card card-compact w-96 bg-base-100 shadow-xl p-6 ml-12">
+          <div>
           <img
-            className="rounded-lg w-1/2 h-auto mr-3"
+            className="rounded-lg w-full h-auto mr-3"
             src="https://cdn.sanity.io/images/0vv8moc6/physpractice/48e7c9e2591e90c0b64cf7a823123f397f34b342-1000x600.png"
           />
-          <div className="mt-2">
+          </div>
+          <div className="card-body">
             <h3 className="text-xl text-fuchsia-500 mb-2 font-semibold">
               BE ON TIME
             </h3>
@@ -39,12 +43,14 @@ const OfferMe = () => {
             </p>
           </div>
         </div>
-        <div className="flex my-10 mr-5">
+        <div className="card card-compact w-96 bg-base-100 shadow-xl p-6 ml-12">
+          <div>
           <img
-            className="rounded-lg w-1/2 h-auto mr-3"
+            className="rounded-lg w-full h-auto mr-3"
             src="https://medcominc.com/wp-content/uploads/2019/12/doctor-patient-interview.jpg"
           />
-          <div className="mt-2">
+          </div>
+          <div className="card-body">
             <h3 className="text-xl text-fuchsia-500 mb-2 font-semibold">
               ADDRESS PATIENTS BY NAME
             </h3>
@@ -56,23 +62,7 @@ const OfferMe = () => {
             </p>
           </div>
         </div>
-        <div className="flex my-10 mr-5">
-          <img
-            className="rounded-lg w-1/2 h-auto mr-3"
-            src="https://excelmg.excel-medical.com/1664595686793.jpg"
-          />
-          <div className="mt-2">
-            <h3 className="text-xl text-fuchsia-500 mb-2 font-semibold">
-              MAKE SOME TIME FOR SMALL TALK
-            </h3>
-            <p className="text-justify">
-              Even though it’s crucial to be on time, it is also essential to
-              make sure patients don’t feel rushed.Take the time to chat with
-              your patients and make them feel heard. If they have questions or
-              are confused about the diagnosis or their health,I actively listen to take a minute and try to answer their questions.
-            </p>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
