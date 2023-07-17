@@ -1,16 +1,18 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Footer from '../Pages/Shared/Footer/Footer'
-import Header from '../Pages/Shared/Header/Header'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import Footer from "../Components/Shared/Footer/Footer";
+import Header from "../Components/Shared/Header/Header";
+import MarqueeText from "../Pages/Home/MarqueeText/MarqueeText";
 
 const Main = () => {
   return (
     <div>
-        <Header></Header>
-        <Outlet></Outlet>
-        <Footer></Footer>
+      <MarqueeText />
+      <Header></Header>
+      <Outlet></Outlet>
+      <Footer></Footer>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

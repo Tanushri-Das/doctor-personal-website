@@ -49,7 +49,7 @@ const sliderData = [
   ]
 const Slider = () => {
     return (
-        <div className="carousel w-full py-6">
+        <div className="carousel w-full">
           {
               sliderData.map(slide => <SliderItem key = {slide.id}
                 slide = {slide}>

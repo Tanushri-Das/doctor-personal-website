@@ -35,7 +35,7 @@ const UpdateReview = () => {
 
   return (
     <div>
-        <h2>UpdateReview</h2>
+        <h2>Update Review</h2>
         <form onSubmit={handleUpdateReview}>
           <div>
             <input

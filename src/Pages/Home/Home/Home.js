@@ -4,6 +4,8 @@ import AboutMine from '../AboutMine/AboutMine'
 import OfferMe from '../OfferMe/OfferMe'
 import Services from '../Services/Services'
 import Slider from '../Slider/Slider';
+import FAQ from './FAQ/FAQ'
+import Contact from '../Contact/Contact'
 
 
 const Home = () => {
@@ -15,7 +17,9 @@ const Home = () => {
       <Slider></Slider>
       <AboutMine></AboutMine>
       <Services></Services>
+      <FAQ/>
       <OfferMe></OfferMe>
+      <Contact/>
     </div>
   )
 }

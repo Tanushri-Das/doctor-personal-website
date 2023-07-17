@@ -58,9 +58,9 @@ const router = createBrowserRouter([
                     element:<PrivateRoute><AddServices></AddServices></PrivateRoute>
                 },
                 {
-                    path:'/update',
-                    element:<UpdateReview></UpdateReview>
-                }
+                    path: "/addservice/:service_id",
+                    element: <PrivateRoute><AddServices /></PrivateRoute>
+                  }
             ]
         }
 ])
